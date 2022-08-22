@@ -1,0 +1,67 @@
+@CHARSET "ISO-8859-1";
+.not-logged-in .block-title, #page-title{ display:none;}
+
+body {
+	font-family: Arial, Verdana, Helvetica,sans-serif;
+	color:#666666;
+	background-color:#CCCCCC;
+	margin:20px;
+	}
+a:link, a:active, a:visited{
+	color:#666666;
+	text-decoration:underline;
+	}
+a:hover{
+	color:#000000;
+}	
+#site-name{
+	color:#666666;
+	}
+#site-name a:link, #site-name a:hover,#site-name a:visited, #site-name a:active{
+	color:#666666;
+	}	
+#header{	
+	text-align:center; 
+	width:330px;
+  margin-left: auto ;
+  margin-right: auto ;	
+	}
+
+#block-system-main-menu ul{
+	padding:0;
+	margin:0;
+}	
+#block-system-main-menu ul li{
+	list-style-image: none;
+	list-style: none;
+	margin-bottom:20px;
+}
+#block-system-main-menu li.active-trail{
+	color:black;
+	font-weight:bold;
+	text-decoration:none;
+}
+#block-system-main-menu ul li ul{
+  margin-top:20px;
+}
+#block-system-main-menu ul li ul li{
+  font-size:80%;
+  margin-left:20px;
+}
+#block-system-main-menu a:link, #block-system-main-menu a:visited, #block-system-main-menu a:active{
+	text-decoration:none;
+	}
+#footer{
+	font-size:0.7em;
+  text-align:center;
+  margin-left: auto ;
+  margin-right: auto ;
+}  
+.view-paintings table{
+	width:100%;
+	}  
+.view-paintings td{
+	padding:15px;
+}
+
+.view-paintings tr.row-first td{padding-top:0px;}
